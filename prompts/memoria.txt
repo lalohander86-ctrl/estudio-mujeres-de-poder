@@ -1,0 +1,41 @@
+MEMORIA DEL CANAL MUJERES DE PODER (preferencias fijas de Alejandro)
+
+CANAL Y AUDIENCIA
+- Canal: Mujeres de Poder (@mujeresdepoder-YT). Es su mejor canal ahora mismo.
+- Los guiones de este proyecto son siempre para Mujeres de Poder. El material es intercambiable con La Fama Cobra y La Verdad del Famoso, por eso las CTA nunca nombran el canal.
+- Audiencia: mujeres de 55 a 75 años de México, Latinoamérica y el mercado hispano de EE. UU.
+- Narrador masculino que se dirige a una audiencia femenina.
+- Diferencial de marca: rigor factual por encima del sensacionalismo. Hechos documentados narrados con la máxima fuerza dramática; las versiones no verificadas siempre atribuidas con fuente y año; nada inventado sobre personas reales.
+
+FORMATO
+- Guion de 70.000 a 80.000 caracteres (60 a 80 minutos de narración con IA).
+- Entrega en texto plano (.txt), negrita marcada con **TEXTO**.
+- Pausas siempre con el Sistema A: <#0.5#>, <#1#>, <#1.5#>, <#2#>, solo donde sirven al narrador.
+- Cero rayas largas, cero cifras en número en el cuerpo del texto, cero etiquetas HTML salvo las pausas, pares de ** equilibrados.
+
+ESTRUCTURA
+- Cinco bloques invisibles, sin títulos ni separadores.
+- Cuatro promesas anunciadas en el bloque 1 y cumplidas en orden con su aviso explícito.
+- Frase ancla que aparece de 4 a 7 veces, sembrada pronto sin su sentido completo y resignificada en el cierre circular.
+- Estructura circular: abre y cierra en la misma escena o imagen.
+- Un detalle biográfico sembrado pronto que se paga en el final.
+- Las primeras palabras del guion replican el gancho del packaging elegido: mismas palabras clave y misma palabra veneno del título y la miniatura.
+
+CTA
+- Exactamente una CTA de suscripción, en el bloque 3, genérica, sin nombrar el canal.
+- En esa CTA se explica de forma persuasiva que, si la están viendo desde la televisión, pueden suscribirse escaneando con el celular el código QR que aparece en pantalla, y se agradece de todo corazón porque así se pueden seguir narrando estas historias. Original en cada guion y acorde a la historia.
+
+PANTALLA FINAL
+- En los últimos minutos el narrador nombra en voz alta un video ya publicado del canal como puente temático ("si esto te conmovió, mira la historia de X"). Nunca un enlace.
+- Videos ya publicados (sirven para la pantalla final y para no repetir tema): Adela Noriega, Elba Esther Gordillo, Jacobo Zabludovsky, Cristina Pacheco, Sasha Montenegro, Ana María Polo y Jenni Rivera, Angélica Rivera y Peña Nieto, Mónica Pretelini, Marcela Basteri, El Puma y sus hijas, Silvia Pinal y Frida Sofía, Emilio Lozoya, Rocío Dúrcal, Beatriz Gutiérrez Müller, Karla Luna y Karla Panini, Bronco y Ramiro Delgado, Christian Bach y Humberto Zurita, Juan Gabriel y su hijo secreto en Nevada, La India María, Niurka Marcos, Galilea Montijo, Pati Chapoy.
+- Los personajes ya trabajados se pueden repetir con un ángulo nuevo y con las técnicas de retención actuales (emoción rectora, cadena de preguntas, refuerzo variable, brechas de información).
+
+GUIONES DE LA COMPETENCIA COMO REFERENCIA
+- Se toma el mismo tema y la estructura, adaptados al estilo del canal (dramático, emocional y documentado), con el protocolo de rigor completo. Nunca se copia el contenido inventado del rival.
+- Los comentarios de los videos rivales muestran lo que frustra a la audiencia (datos inventados, relleno, repeticiones).
+
+PACKAGING
+- Palabra veneno siempre presente ("ASQUEROSO/A" o equivalente) en el título o la miniatura, dirigida a la conducta, al culpable o al sistema, nunca a la víctima.
+- Miniatura: protagonista en el centro y una persona relacionada a cada lado, fotos reales coloreadas, fondo rojo dominante, tipografía Anton en dos niveles con la última palabra en amarillo, sin emojis. Formato del canal: las palabras "POR ESTO" en blanco sobre caja roja.
+- Título y miniatura llevan capas de información distintas y se complementan, nunca se repiten.
+- Descripción de máximo 5.000 caracteres, hashtags pocos y directos, tags de máximo 500 caracteres con variantes mal escritas de nombres y temas.

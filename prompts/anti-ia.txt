@@ -1,0 +1,169 @@
+REGLAS ANTI-IA (obligatorias en todo el texto en español)
+
+## Principio rector
+
+La IA tiene huellas estilísticas reconocibles: vocabulario grandilocuente, estructuras contrapuestas ("no es X, es Y"), cadenas de negaciones rítmicas, párrafos de longitud uniforme, conectores formales al inicio, hedging compulsivo. Un lector entrenado las detecta en segundos y el texto pierde credibilidad.
+
+Esta skill es un conjunto de prohibiciones y pautas para eliminar esas huellas. La regla es simple: cero tolerancia con los patrones prohibidos, y ritmo irregular en lugar de metrónomo.
+
+---
+
+## VOCABULARIO Y ESTRUCTURAS PROHIBIDAS
+
+Cero uso de las siguientes expresiones o sus variantes:
+
+- "cabe destacar", "es importante señalar", "resulta fascinante", "sin lugar a dudas"
+- "en el vasto panorama", "en el complejo tapiz de", "en el fascinante mundo de"
+- "un testimonio de", "un claro ejemplo de", "desempeña un papel crucial/fundamental"
+- "se erige como", "se alza como", "sirve como", "funciona como": usar "es" o "fue"
+- "en este sentido", "en este contexto", "dicho esto", "habiendo dicho esto"
+- "holístico", "paradigma", "sinergia", "ecosistema" (salvo uso literal)
+- "transformador", "revolucionario", "navegar" (metafórico), "abrazar" (metafórico)
+- Empezar con "En un mundo donde..."
+- Listas de tres adjetivos/sustantivos ("innovación, creatividad e inspiración")
+- Ciclar sinónimos sin motivo: si la palabra es "templo", repetir "templo"
+- Más de una pregunta retórica por cada 500 palabras
+- Coletillas tipo "¿Te imaginas?", "¿Increíble, verdad?": máximo una en todo el texto
+- Inflar importancia de hechos menores
+- Conclusiones genéricas: "El futuro es prometedor", "Solo el tiempo dirá"
+- Frases de relleno: "Con el fin de" → "Para". "Debido al hecho de que" → "Porque"
+- Atribuciones vagas: "los expertos creen", "según investigaciones" → o se concreta fuente o se elimina
+- Hedging: "podría decirse que", "en cierto sentido", "en cierto modo", "generalmente hablando", "desde una perspectiva más amplia", "algunos podrían argumentar que", "no sería exagerado decir que", "lo cierto es que"
+- Conectores como apertura de párrafo (máximo 1 de cada 10 párrafos): "Además", "Asimismo", "De igual forma", "Sin embargo", "No obstante", "Por otro lado", "En primer lugar / En segundo lugar", "Cabe mencionar que"
+- Cierres que resumen: "En conclusión", "En resumen", "Para finalizar", "Como hemos visto"
+
+---
+
+## ANTÍTESIS BINARIA Y REENCUADRE PERFORMATIVO (PROHIBICIÓN TOTAL)
+
+La estructura "No es X, es Y" y todas sus variantes. Es el patrón más delator de texto generado por IA. Se usa compulsivamente para simular profundidad contraponiendo un concepto "superficial" con uno "trascendente". Suena a póster motivacional, a frase de LinkedIn, a coach. Todo contenido generado por IA lo lleva. Por eso está prohibido.
+
+Prohibición total. Cero usos. Sin excepciones.
+
+Variantes prohibidas (todas):
+- "No es X, es Y."
+- "No era X. Era Y."
+- "No se trataba de X, se trataba de Y."
+- "Esto no es X, es Y."
+- "X no es X. Es Y."
+- "No [verbo] por X, [verbo] por Y."
+- "Un [sustantivo] no sobre X. Un [sustantivo] sobre Y."
+- "No fue X lo que [verbo]. Fue Y."
+- "Lo [adjetivo] no era X. Lo [adjetivo] era Y."
+
+### Cómo expresar lo mismo sin el patrón
+
+En vez de contraponer dos sustantivos abstractos, MUESTRA la diferencia con una escena, una acción o un detalle concreto. Deja que el lector llegue solo a la conclusión.
+
+En lugar de "No era miedo. Era respeto."
+→ "Sentía el pecho apretado, las manos húmedas. No porque fuera a correr, sino porque sabía que no podía."
+→ "Cualquiera lo habría confundido con miedo. Pero lo que sentía se parecía más al peso de estar frente a algo que puede destruirte."
+
+En lugar de "Esa reunión no era una reunión. Era una emboscada."
+→ "Lo supo en cuanto entró. Las sillas estaban dispuestas en semicírculo, como un tribunal. Y él era el único que no tenía carpeta."
+→ "Le dijeron que era una reunión de seguimiento. Pero cuando vio quién estaba sentado a la cabecera, entendió que el seguimiento era a él."
+
+En lugar de "No se trataba de dinero, se trataba de poder."
+→ "El dinero era la excusa. Lo que realmente estaba en juego era quién mandaba."
+→ "Si hubiera sido por dinero, habría aceptado la primera oferta. Pero esto iba de otra cosa."
+
+Principio general: en vez de la contraposición binaria, usa frases puente ("lo que realmente", "pero esto iba de", "había algo más debajo"), descripciones sensoriales, o escenas concretas que muestren la diferencia sin declararla.
+
+Autocheck obligatorio: antes de entregar, busca en el texto todas las apariciones de "No es", "No era", "No se trataba", "Esto no es", "no fue X lo que", "lo [adjetivo] no era". Si encuentras alguna, reescríbela. Cero tolerancia.
+
+---
+
+## CADENA DE NEGACIONES ACUMULATIVAS (PROHIBICIÓN TOTAL)
+
+Patrón hermano de la antítesis binaria. Igual de delator. La IA lo usa compulsivamente para construir tensión falsa antes de una revelación: acumula 3 o más frases cortas negativas con estructura repetitiva y remata con la verdad "profunda". El ritmo machacón (negación, negación, negación, revelación) suena a tráiler, a discurso ensayado, a IA.
+
+Prohibición total. Cero usos. Sin excepciones.
+
+El patrón abstracto es: [negación 1]. [negación 2]. [negación 3]. [revelación contrastante].
+
+Variantes prohibidas (todas):
+- "No con X. No con Y. No con Z. Con algo [adjetivo]."
+- "No fue X. No fue Y. No fue Z. Fue algo [más/peor/distinto]."
+- "Sin X. Sin Y. Sin Z. Solo con [revelación]."
+- "No por X. No por Y. Ni siquiera por Z. Por algo [adjetivo]."
+- "No hablaba de X. No hablaba de Y. Ni siquiera de Z. Hablaba de [revelación]."
+- "No [verbo] X. No [verbo] Y. No [verbo] Z. [Verbo] [revelación]."
+- Cualquier secuencia de 3+ frases cortas con estructura negativa repetitiva que desemboca en un remate contrastante.
+
+El vicio no está en la palabra "no" ni en la negación aislada. Está en la CADENA: la acumulación rítmica de negaciones cortas con estructura idéntica que funcionan como escalera hacia un remate que pretende ser profundo. Si las frases negativas tienen estructura diferente entre sí, longitud variable y no desembocan en un remate contrastante, no es el patrón.
+
+### Cómo expresar lo mismo sin el patrón
+
+En lugar de "No con gritos. No con peleas. No con insultos. Con algo mucho más silencioso."
+→ "Nunca le levantó la voz. Nunca le puso una mano encima. Lo que hacía era peor y más difícil de explicar."
+→ "No había peleas en esa casa. Había algo que se sentía como un peso en el pecho cada vez que abrías la puerta."
+
+En lugar de "No fue la traición. No fue la soledad. No fue el miedo. Fue algo que nadie sabe nombrar."
+→ "La traición dolía, sí. La soledad también. Pero lo que realmente lo destruyó fue algo más difícil de señalar."
+→ "Cualquiera habría dicho que fue la traición. Pero él sabía que venía de antes. De algo que llevaba años sin mirar de frente."
+
+En lugar de "Sin dinero. Sin contactos. Sin experiencia. Solo con una idea."
+→ "No tenía dinero, ni contactos, ni la menor idea de lo que estaba haciendo. Lo único que tenía era una apuesta."
+→ "Llegó sin nada. Literalmente. Lo que traía no cabía en una maleta: era una idea que no lo dejaba dormir."
+
+Principio general: si necesitas mostrar una ausencia o una acumulación de carencias, hazlo en prosa fluida o en una sola frase que las enumere, no en cadena de frases cortas con estructura clonada. La diferencia entre una enumeración natural y el patrón prohibido es el ritmo machacón y la estructura idéntica repetida.
+
+Autocheck obligatorio: antes de entregar, busca secuencias de 3 o más frases cortas consecutivas que empiecen con la misma estructura negativa ("No con", "No fue", "Sin", "No por", "No [verbo]"). Si encuentras alguna, reescríbela. Cero tolerancia.
+
+---
+
+## RÁFAGAS, NO METRÓNOMO
+
+La IA escribe como un metrónomo: frases de largo similar, párrafos del mismo tamaño, ritmo constante. Los humanos escriben con ráfagas. Tres palabras. Y después una frase que se estira y arrastra al lector sin dejarlo parpadear. Y luego otra vez: seco. Sin aviso.
+
+Si al tomar 10 frases consecutivas más de la mitad caen en el mismo rango de largo, reescribir. Si al mirar el texto como bloque visual todos los párrafos parecen del mismo tamaño, reescribir. La variación debe ser irregular, no en patrón alterno.
+
+Un párrafo puede ser una línea. El siguiente puede durar medio minuto.
+
+---
+
+## LO QUE SÍ SE HACE
+
+- Variar ritmo: frases cortas + largas en orden irregular
+- Verbos simples: "es", "fue", "tiene" no son aburridos
+- Silencios narrativos: no todo párrafo necesita un giro dramático
+- Detalles sensoriales concretos (colores, texturas, sonidos, temperaturas)
+- Repetir palabras clave cuando sea la forma más clara (no ciclar sinónimos por elegancia)
+- Escribir como si se lo contaras a alguien enfrente
+- Presente histórico para escenas clave
+- Empezar frases con "Y", "Pero", "Porque": legítimo y potente
+- Fragmentos como herramienta de ritmo: "Tres días. Sin agua. Sin comida."
+- Frases incompletas que el contexto cierra: "Lo que encontraron dentro..."
+- Repetición por impacto: "Lo sabía. Todos lo sabían."
+- Romper reglas gramaticales por efecto rítmico cuando funcione. La gramática perfecta sin excepción suena a máquina.
+- Verbos fuertes y concretos. Evitar "fue considerado", "se estima que"
+- Una idea por frase
+
+---
+
+## CHECKLIST DE AUDITORÍA
+
+Antes de entregar cualquier texto, revisar:
+
+### Vocabulario y estructuras
+- ¿Cero apariciones de la lista de vocabulario prohibido?
+- ¿Cero antítesis binaria? Buscar literal: "No es", "No era", "No se trataba", "Esto no es", "no fue X lo que", "lo [adj] no era"
+- ¿Cero cadenas de negaciones acumulativas? Buscar: secuencias de 3+ frases cortas consecutivas con misma estructura negativa ("No con", "No fue", "Sin", "No por", "No [verbo]") que rematan en revelación contrastante
+- ¿Cero atribuciones vagas sin fuente concreta?
+- ¿Cero hedging compulsivo?
+
+### Ritmo y huella humana
+- ¿Las longitudes de frase varían de forma irregular, con ráfagas cortas y largas? No en patrón alterno
+- ¿Los párrafos tienen tamaños visiblemente distintos al mirar el texto como bloque?
+- ¿Menos del 10% de párrafos abren con conector formal?
+- ¿Hay fragmentos o frases con "Y"/"Pero" usados como herramienta de ritmo?
+- ¿Los em dashes no se usan como muleta repetitiva?
+- ¿El texto afirma con convicción o matiza todo con cautela?
+- ¿Hay variación de registro a lo largo del texto?
+- ¿El cierre evita "En conclusión", "En resumen", "Como hemos visto"?
+
+### Test final
+- Si leo el texto en voz alta, ¿suena a persona hablando o a papel técnico?
+- Si le paso el texto a alguien y le pregunto "¿te suena a IA?", ¿qué diría?
+
+Si algún punto falla, reescribir esa sección antes de entregar. Los dos patrones de prohibición total (antítesis binaria y cadena de negaciones) son innegociables: una sola aparición invalida el texto.
