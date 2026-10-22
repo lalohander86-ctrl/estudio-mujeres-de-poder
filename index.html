@@ -157,6 +157,7 @@ const DEFAULT_CUBIERTOS = ["Adela Noriega","Elba Esther Gordillo","Jacobo Zablud
 const PROMPT_FILES = { guion: "prompts/guion.txt", packaging: "prompts/packaging.txt", memoria: "prompts/memoria.txt", antiia: "prompts/anti-ia.txt" };
 const PROMPT_NAMES = { guion: "Guion (Mujeres de Poder)", packaging: "Packaging", memoria: "Memoria del canal", antiia: "Reglas anti-IA" };
 const ORD = ["primero", "segundo", "tercero", "cuarto"];
+const CANALES = ["MUJERES DE PODER", "LA FAMA COBRA", "LA VERDAD DEL FAMOSO"];
 
 const S = {
   view: "radar",
@@ -308,7 +309,7 @@ function projState(p) {
 
 /* ---------- proyecto ---------- */
 function blankProj() {
-  return { id: "", creado: nowTs(), actualizado: nowTs(), tipo: "manual", famoso: "", origen: {}, dossier: "", referencia: "", angRef: "", propuestas: [], eleccion: { idx: null, notas: "", pantalla: "" }, nombreCorto: "", plan: null, bloques: ["", "", "", "", ""], auditoria: "", analisis: "", packaging: "" };
+  return { id: "", creado: nowTs(), actualizado: nowTs(), tipo: "manual", famoso: "", origen: {}, dossier: "", referencia: "", angRef: "", propuestas: [], eleccion: { idx: null, notas: "", pantalla: "" }, nombreCorto: "", canal: "", plan: null, bloques: ["", "", "", "", ""], auditoria: "", analisis: "", packaging: "" };
 }
 function newProject(tipo, famoso, origen) {
   const p = blankProj();
@@ -525,7 +526,8 @@ async function writeAll(from) {
       const tr = await writeBlock(n, "", false, sig);
       logLine(`Bloque ${n}: ${fmt(p.bloques[n - 1].length)} caracteres${tr ? " (cortado; usa Alargar)" : ""}.`);
     }
-    logLine("Guion terminado. Revisa las comprobaciones y pasa a la auditoría.");
+    logLine("Guion terminado. Elige para qué canal es y pasa a la auditoría.");
+    if (!sig.aborted && !p.canal) setTimeout(() => { const c = $("#canal-box"); if (c) c.scrollIntoView({ behavior: "smooth", block: "center" }); }, 50);
   } catch (e) { logLine(errMsg(e)); }
   S.busy = null; render();
 }
@@ -609,7 +611,7 @@ async function doPackaging() {
 ${P("memoria")}
 
 === ENTRADA ===
-CANAL: Mujeres de Poder
+CANAL: ${p.canal ? titleCase(p.canal) : "Mujeres de Poder"}
 NOMBRE CORTO DEL VÍDEO: ${p.nombreCorto || p.famoso.toLowerCase()}
 ${props}
 ${p.eleccion.idx != null ? `(El usuario eligió para el guion la propuesta ${"ABC"[p.eleccion.idx]}${p.eleccion.notas ? "; notas: " + p.eleccion.notas : ""}.)` : ""}
@@ -763,6 +765,8 @@ function renderGuion() {
         g ? h("button", { class: "btn", onclick: () => copy(g, "Guion") }, "Copiar") : null),
       S.log && B.startsWith("guion") ? h("div", { class: "log", id: "log" }, S.log) : null,
       planBox,
+      p.bloques.every(b => b && b.length > 2000) ? h("div", { class: "panel", id: "canal-box" }, h("div", { class: "panel-h" }, h("strong", {}, p.canal ? "Canal: " + titleCase(p.canal) : "¿Para qué canal es este guion?"), p.canal ? null : h("span", { class: "sub" }, "Elígelo para el packaging y para guardarlo en su carpeta.")),
+        h("div", { class: "row" }, CANALES.map(c => h("button", { class: "btn small" + (p.canal === c ? " primary" : ""), onclick: () => { p.canal = c; saveProj(); render(); toast("Canal: " + titleCase(c)); } }, titleCase(c))))) : null,
       chk ? h("div", { class: "checks" }, chk.items.map(([k, t]) => h("span", { class: "chk " + k }, t))) : null,
       chk && chk.anti.length ? h("details", {}, h("summary", {}, "Ver frases con posible antítesis"), h("ul", {}, chk.anti.slice(0, 12).map(a => h("li", {}, a)))) : null,
       blocks)));
